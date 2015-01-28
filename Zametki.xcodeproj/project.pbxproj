@@ -15,6 +15,7 @@
 		0A4487021A796E4900D6DBDE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A4487011A796E4900D6DBDE /* Images.xcassets */; };
 		0A4487051A796E4900D6DBDE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A4487031A796E4900D6DBDE /* LaunchScreen.xib */; };
 		0A4487111A796E4900D6DBDE /* ZametkiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4487101A796E4900D6DBDE /* ZametkiTests.m */; };
+		0A44871C1A7975B400D6DBDE /* date.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A44871B1A7975B400D6DBDE /* date.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		0A44870A1A796E4900D6DBDE /* ZametkiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZametkiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A44870F1A796E4900D6DBDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A4487101A796E4900D6DBDE /* ZametkiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZametkiTests.m; sourceTree = "<group>"; };
+		0A44871A1A7975B400D6DBDE /* date.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = date.h; sourceTree = "<group>"; };
+		0A44871B1A7975B400D6DBDE /* date.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = date.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				0A4486F61A796E4900D6DBDE /* AppDelegate.m */,
 				0A4486FB1A796E4900D6DBDE /* ViewController.h */,
 				0A4486FC1A796E4900D6DBDE /* ViewController.m */,
+				0A44871A1A7975B400D6DBDE /* date.h */,
+				0A44871B1A7975B400D6DBDE /* date.m */,
 				0A4486FE1A796E4900D6DBDE /* Main.storyboard */,
 				0A4487011A796E4900D6DBDE /* Images.xcassets */,
 				0A4487031A796E4900D6DBDE /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A44871C1A7975B400D6DBDE /* date.m in Sources */,
 				0A4486FA1A796E4900D6DBDE /* Zametki.xcdatamodeld in Sources */,
 				0A4486F71A796E4900D6DBDE /* AppDelegate.m in Sources */,
 				0A4486FD1A796E4900D6DBDE /* ViewController.m in Sources */,
