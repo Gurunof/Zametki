@@ -24,11 +24,18 @@
                             </label>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="aXf-SD-LGR">
                                 <rect key="frame" x="14" y="225" width="292" height="31"/>
+                                <connections>
+                                    <action selector="sliderChangeValueLabel:" destination="vXZ-lx-hvc" eventType="valueChanged" id="qMy-Dy-Aal"/>
+                                </connections>
                             </slider>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="labelNum" destination="r1B-kF-hFZ" id="NZX-FT-7lG"/>
+                        <outlet property="sliderChangeValueLabel" destination="aXf-SD-LGR" id="P5h-ST-SCM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

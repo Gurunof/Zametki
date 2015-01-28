@@ -15,6 +15,7 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
+    self.sliderChangeValueLabel.value=0;
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
@@ -24,4 +25,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)sliderChangeValueLabel:(id)sender{
+    int _valueToLabelFromSlider = self.sliderChangeValueLabel.value*100;
+    self.labelNum.text=[NSString stringWithFormat:@"%i",_valueToLabelFromSlider];
+    
+}
 @end
